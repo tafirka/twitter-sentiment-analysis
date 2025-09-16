@@ -1,1 +1,8 @@
 # twitter-sentiment-analysis
+
+With the rise of users on social media over the past decade, the volume of data shared (posts and images) on social media platforms has increased exponentially. There is a large population of users who struggle with mental illnesses, while some users are aware and take proactive steps, there are many others who are still quite unaware of the symptoms. Ongoing studies have shown that, when compared with controlled users we are able to identify users struggling with mental illness based on the sentiments in their social media posts. Question then arises, how accurately can we identify depression from such posts. 
+We hypothesized, that prolonged (duration and frequency) tweets with negative sentiments can show early signs of depression.  To investigate this hypothesis, we constructed models (Naive Bayes Classifiers, Linear Regression, Support-vector machine, and Recurrent Neural Network models) to identify and analyze sentiments based on choice of words and sentence structure.
+
+Using the twitter sentiment dataset from Sentiment140 and NLTK libraries (WordNetLemmatizer, stopwords, punkt and SnowballStemmer) to pre-process the data, we observed that RNN model, predicted better accuracy in identifying the sentiments than Naive Bayes classifiers model, Linear Regression and Support Vector Machine (0.54, 0.74, 0.74 respectively). 
+
+Our conclusion is that Deep Learning models predict sentiments with much greater accuracy and precision. Future studies should investigate the correlation between intensity and frequency of tweets on different DL models to get a higher accuracy and precision of prediction with limited datasets. 
